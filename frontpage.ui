@@ -29,13 +29,16 @@
       <height>841</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dirty Page&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
     </property>
     <property name="frameShadow">
      <enum>QFrame::Sunken</enum>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="Home">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -50,10 +53,10 @@
      <widget class="QTextEdit" name="textEdit_2">
       <property name="geometry">
        <rect>
-        <x>110</x>
+        <x>20</x>
         <y>400</y>
-        <width>251</width>
-        <height>41</height>
+        <width>431</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="autoFillBackground">
@@ -67,7 +70,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;SALE PITCH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Are YOU tired of being clean? Well if you are, then the Just Dirtier Team is here to help!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QTextEdit" name="textEdit">
@@ -190,8 +193,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QTextEdit" name="textEdit_4">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>460</y>
+        <x>190</x>
+        <y>470</y>
         <width>421</width>
         <height>70</height>
        </rect>
@@ -201,16 +204,17 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;MAINTANCE PLAN&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;MAINTANCE PLAN&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;We will be able to offer 24/7 maintenance on any product of ours. We can communicate over the phone, Email, or even by one of our Dirty Technicians. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QTextEdit" name="textEdit_5">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>160</y>
-        <width>391</width>
-        <height>241</height>
+        <x>160</x>
+        <y>20</y>
+        <width>501</width>
+        <height>431</height>
        </rect>
       </property>
       <property name="readOnly">
@@ -221,21 +225,42 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;************************************************************&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*                                     &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600; text-decoration: underline;&quot;&gt;Three Service Options                                                   &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; *__________________________________________________________&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;* The &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;Dirty&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; Package:                                                                         &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*-------------------                                                                               &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*                                                                                                                                                                                                          &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*__________________________________________________________&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;* The &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;Just Dirtier&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; Package:                        &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*--------------------------                                &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*                                                          &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*__________________________________________________________&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;* The &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;Absolutly Filthy&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; Package:                            &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*------------------------------                            &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*                                                          &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*                                                          &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*                                                          &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;*****************************************************************************&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                                     &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600; text-decoration: underline;&quot;&gt;Three Service Options                                                   &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; _____________________________________________________________________________&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; The &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;Dirty&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; Package&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; ( 1 Month: $50 / 1 Year: $75 ) &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;:                                                                         &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;--------------------------------------------------------------                                                                              &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Defends against viruses, spyware, malware and other online threats 		            using dust. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Cloaks your identity and online transactions with soil. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Protects better and faster than the competition &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Includes our 100% guarantee: We’ll help keep your device virus-free or 		            give you a dust &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;_____________________________________________________________________________&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; The &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;Just Dirtier&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; Package &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;( 1 Month: $75 / 1 Year: $100 ) :&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;-------------------------------------------------------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;     •    Secures multiple PCs, Macs, smartphones and tablets with a single subscription. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Helps you manage protection for all your devices with an easy-to-use Web portal &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Safeguards your identity and online transactions &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Protects better and faster than the competition &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Includes our 100% guarantee : We’ll help keep your devises virus-free or give you some         &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;             more dirt &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;     •    Defends against viruses, spyware, malware and other online threats &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                                                      &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                                                          &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;_____________________________________________________________________________&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; The &lt;/span&gt;&lt;span style=&quot; font-size:7.875pt; font-weight:600;&quot;&gt;Absolutly Filthy&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt; Package &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;( 1 Month: $100 / 2 Months: $150 ) :&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;-----------------------------------------------------------------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Offers you 25 GB of secure online PC storage, with the ability to add more as your needs&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;             change.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Provides premium family safety features so your kids can explore their connected world&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;             safely.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Secures multiple PCs, Macs, smartphones and tablets with a single subscription.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Helps you manage protection for all your devices with an easy-to-use Web portal.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Defends against viruses, spyware, malware and other online threats.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Safeguards your identity and online transactions.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Protects better and faster than the competition.&lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919; vertical-align:super;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:8pt; color:#191919;&quot;&gt;     ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#191919;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;Includes our 100% guarantee: We’ll help keep your devices virus-free or give you a&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#191919;&quot;&gt;             refund.&lt;/span&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                        &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                        &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                                                          &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;                                                                                                                   &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_2">
@@ -267,8 +292,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLineEdit" name="lineEdit">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>340</y>
+        <x>290</x>
+        <y>470</y>
         <width>311</width>
         <height>101</height>
        </rect>
@@ -277,8 +302,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton_3">
       <property name="geometry">
        <rect>
-        <x>650</x>
-        <y>340</y>
+        <x>640</x>
+        <y>540</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -293,7 +318,7 @@ p, li { white-space: pre-wrap; }
         <x>40</x>
         <y>80</y>
         <width>751</width>
-        <height>211</height>
+        <height>321</height>
        </rect>
       </property>
       <property name="readOnly">
@@ -304,14 +329,25 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7.875pt;&quot;&gt;TESTIMONIALS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Testimonials&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; “We love “Just Dirtier.”  My family has not been hacked for centuries.  “Just Dirtier” shooed away the hackers and we want to keep it that way. “ 8/10 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;- Janet from Jacksonville Florida &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;“First thing I did when I bought “Just Dirtier” was take a shower.” 10/10 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;- Lamar from Burbank California &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;“This product is absolutely disgusting.  It was so dirty I didn’t even want to come close to my business’ information” 10/10 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;- Stacey from Ferguson Missouri &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;“I Love Dirt &amp;lt;3” 7/10 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;- Phil from Collinsville Illinois &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>120</x>
-        <y>340</y>
+        <x>100</x>
+        <y>460</y>
         <width>191</width>
         <height>31</height>
        </rect>
@@ -321,7 +357,7 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page">
+    <widget class="QWidget" name="Home">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -336,7 +372,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QRadioButton" name="radioButton_2">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>280</x>
         <y>220</y>
         <width>121</width>
         <height>41</height>
@@ -349,7 +385,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QRadioButton" name="radioButton">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>280</x>
         <y>190</y>
         <width>121</width>
         <height>41</height>
@@ -362,7 +398,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>320</x>
         <y>70</y>
         <width>80</width>
         <height>41</height>
@@ -375,7 +411,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>320</x>
         <y>360</y>
         <width>191</width>
         <height>131</height>
@@ -399,7 +435,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>190</x>
         <y>160</y>
         <width>221</width>
         <height>16</height>
@@ -412,7 +448,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QRadioButton" name="radioButton_3">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>280</x>
         <y>250</y>
         <width>141</width>
         <height>41</height>
@@ -425,7 +461,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton_4">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>420</x>
         <y>70</y>
         <width>80</width>
         <height>41</height>
@@ -438,20 +474,20 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>330</x>
         <y>40</y>
         <width>201</width>
         <height>16</height>
        </rect>
       </property>
       <property name="text">
-       <string>Would you like to Use our services</string>
+       <string>Would you like to Use our services?</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>190</x>
         <y>330</y>
         <width>161</width>
         <height>16</height>
@@ -464,7 +500,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QWidget" name="layoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>188</x>
+        <x>240</x>
         <y>360</y>
         <width>81</width>
         <height>131</height>
@@ -501,6 +537,19 @@ p, li { white-space: pre-wrap; }
        </item>
       </layout>
      </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>510</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
@@ -532,6 +581,7 @@ p, li { white-space: pre-wrap; }
     <addaction name="separator"/>
     <addaction name="actionHelp_Using_Our_Program"/>
     <addaction name="separator"/>
+    <addaction name="actionAdmin_Login"/>
    </widget>
    <addaction name="menuHelp"/>
   </widget>
@@ -555,26 +605,15 @@ p, li { white-space: pre-wrap; }
     <string>Help Using Our Program</string>
    </property>
   </action>
+  <action name="actionAdmin_Login">
+   <property name="text">
+    <string>Admin Login</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections>
-  <connection>
-   <sender>lineEdit</sender>
-   <signal>textEdited(QString)</signal>
-   <receiver>textEdit_6</receiver>
-   <slot>setText(QString)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>398</x>
-     <y>522</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>346</x>
-     <y>351</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>pushButton_3</sender>
    <signal>clicked()</signal>
@@ -582,12 +621,28 @@ p, li { white-space: pre-wrap; }
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>683</x>
-     <y>475</y>
+     <x>671</x>
+     <y>663</y>
     </hint>
     <hint type="destinationlabel">
-     <x>362</x>
-     <y>540</y>
+     <x>593</x>
+     <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>textEdited(QString)</signal>
+   <receiver>textEdit_6</receiver>
+   <slot>append(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>475</x>
+     <y>655</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>441</y>
     </hint>
    </hints>
   </connection>

@@ -60,3 +60,35 @@ void FrontPage::on_pushButton_2_clicked()
                              "*                                                          \n"
                              "***********************************************************\n");
 }
+
+
+void FrontPage::on_actionHelp_triggered()
+{
+    QMessageBox::information(this, "About Us",
+                             "Here at Just Dirtier Cyber Security, we love to keep our\n"
+                             "clients in a pile of dirt.  We treat of our individual customers \n"
+                             "like trash, but that is okay because we want them to feel like \n"
+                             "complete Dirt.  Our application will keep you safe in the dirtiest \n"
+                             "way possible.  Think about it, no hacker wants to hack somebody’s \n"
+                             "information if the information is a mess.  We will degrade your \n"
+                             "information so much that no hackers would ever want to come near \n"
+                             "to your information.  The origin of our product was inspired by \n"
+                             "stranger we found outside of our local swap meet.  Lets just name \n"
+                             "the stranger’s name was “Chaz.”  Chaz’s state of hygiene was \n"
+                             "absolutely appalling.  A stench of French fry grease and a moldy \n"
+                             "shoe was emitted from “Chaz’s” beard.  Nobody wanted to come \n"
+                             "close to this abomination.  In fact, everybody who passed by \n"
+                             "the horrid person was rushed to the local hospital.  Our security\n"
+                             " program is metaphorical to the atrocity we found at the swap meet.  \n"
+                             "We want our customers to feel that no threats will come by their \n"
+                             "business and we will do this by making your business “Just Dirtier.\n");
+}
+
+void FrontPage::on_actionHelp_Using_Our_Program_triggered()
+{
+    QMessageBox::information(this, "Help Using Our Program",
+                             "Start with the mouse. The cursor will move.  Move the cursor to your \n"
+                             "desired destination.  To choose an option, click on the mouse.   Not \n"
+                             "the right button, the left one.  After that, play with our program to\n"
+                             "get familiar with it you dirty piece of filth.");
+}

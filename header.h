@@ -17,7 +17,17 @@
 
 using namespace std;
 
-const int PROMPT_COL = 20;
+/***********************************************************************
+  GLOBAL CONSTANTS
+  ---------------------------------------------------------------------
+    PROMPT_CO           : Used for formatting output
+    ADMIN_PASSWORD		: Used for processing
+    CUSTOMER_PASSWORD   : Used for processing
+ ***********************************************************************/
+const int PROMPT_COL        = 20;
+const int AR_SIZE           = 50;
+const int ADMIN_PASSWORD    = -1234;
+const int CUSTOMER_PASSWORD = 1234;
 
 /***********************************************************************
   ENUMS
@@ -39,15 +49,6 @@ enum Type
     key
 };
 
-/*************************************************************************
- * 	FUNCTION GetAndCheckInput
- * 		This function will accept a single character as input and error
- * 		check it to ensure is is a valid gender response.
- * 	- returns a valid single character response received as input
- *************************************************************************/
-char GetAndCheckInput (const string PROMPT,// IN - response prompt
-                           char validChar1,	   // IN - valid char response
-                           char validChar2);   // IN - valid char response
 
 /**************************************************************************
 * FUNCTION GetAndCheckInput
@@ -75,6 +76,6 @@ void CreateList(Customer List[], const int AR_SIZE);
 *   that QString.
 * - Returns: A QString
 **************************************************************************/
-string GetReview();
+void GetReview(QString ReviewList[], int & index, const int AR_SIZE);
 
 #endif // HEADER_H

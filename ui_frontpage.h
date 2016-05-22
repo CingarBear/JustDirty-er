@@ -38,9 +38,10 @@ public:
     QAction *actionContact_Us_3;
     QAction *actionHelp;
     QAction *actionHelp_Using_Our_Program;
+    QAction *actionAdmin_Login;
     QWidget *centralWidget;
     QToolBox *toolBox;
-    QWidget *widget;
+    QWidget *Home;
     QTextEdit *textEdit_2;
     QTextEdit *textEdit;
     QTextEdit *textEdit_3;
@@ -55,7 +56,7 @@ public:
     QPushButton *pushButton_3;
     QTextEdit *textEdit_6;
     QLabel *label_2;
-    QWidget *page;
+    QWidget *Home1;
     QRadioButton *radioButton_2;
     QRadioButton *radioButton;
     QPushButton *pushButton;
@@ -76,6 +77,7 @@ public:
     QLabel *label_7;
     QLabel *label_8;
     QLabel *label_9;
+    QPushButton *pushButton_5;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
     QMenuBar *menuBar;
@@ -95,6 +97,8 @@ public:
         actionHelp->setObjectName(QStringLiteral("actionHelp"));
         actionHelp_Using_Our_Program = new QAction(FrontPage);
         actionHelp_Using_Our_Program->setObjectName(QStringLiteral("actionHelp_Using_Our_Program"));
+        actionAdmin_Login = new QAction(FrontPage);
+        actionAdmin_Login->setObjectName(QStringLiteral("actionAdmin_Login"));
         centralWidget = new QWidget(FrontPage);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         toolBox = new QToolBox(centralWidget);
@@ -102,39 +106,39 @@ public:
         toolBox->setGeometry(QRect(0, 0, 831, 841));
         toolBox->setFrameShape(QFrame::NoFrame);
         toolBox->setFrameShadow(QFrame::Sunken);
-        widget = new QWidget();
-        widget->setObjectName(QStringLiteral("widget"));
-        widget->setGeometry(QRect(0, 0, 831, 733));
-        textEdit_2 = new QTextEdit(widget);
+        Home = new QWidget();
+        Home->setObjectName(QStringLiteral("Home"));
+        Home->setGeometry(QRect(0, 0, 831, 733));
+        textEdit_2 = new QTextEdit(Home);
         textEdit_2->setObjectName(QStringLiteral("textEdit_2"));
-        textEdit_2->setGeometry(QRect(110, 400, 251, 41));
+        textEdit_2->setGeometry(QRect(20, 400, 431, 51));
         textEdit_2->setAutoFillBackground(false);
         textEdit_2->setReadOnly(true);
-        textEdit = new QTextEdit(widget);
+        textEdit = new QTextEdit(Home);
         textEdit->setObjectName(QStringLiteral("textEdit"));
         textEdit->setGeometry(QRect(480, 410, 321, 311));
         textEdit->setReadOnly(true);
-        textEdit_3 = new QTextEdit(widget);
+        textEdit_3 = new QTextEdit(Home);
         textEdit_3->setObjectName(QStringLiteral("textEdit_3"));
         textEdit_3->setGeometry(QRect(50, 450, 371, 271));
         textEdit_3->setReadOnly(true);
-        label = new QLabel(widget);
+        label = new QLabel(Home);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(20, 130, 141, 171));
-        label_10 = new QLabel(widget);
+        label_10 = new QLabel(Home);
         label_10->setObjectName(QStringLiteral("label_10"));
         label_10->setGeometry(QRect(0, -10, 831, 411));
         label_10->setPixmap(QPixmap(QString::fromUtf8("Assets/21991-science-raptor-raptors-meme-memes.png")));
-        toolBox->addItem(widget, QStringLiteral(""));
+        toolBox->addItem(Home, QStringLiteral(""));
         page_5 = new QWidget();
         page_5->setObjectName(QStringLiteral("page_5"));
         page_5->setGeometry(QRect(0, 0, 831, 733));
         textEdit_4 = new QTextEdit(page_5);
         textEdit_4->setObjectName(QStringLiteral("textEdit_4"));
-        textEdit_4->setGeometry(QRect(210, 460, 421, 70));
+        textEdit_4->setGeometry(QRect(190, 470, 421, 70));
         textEdit_5 = new QTextEdit(page_5);
         textEdit_5->setObjectName(QStringLiteral("textEdit_5"));
-        textEdit_5->setGeometry(QRect(220, 160, 391, 241));
+        textEdit_5->setGeometry(QRect(160, 20, 501, 431));
         textEdit_5->setReadOnly(true);
         pushButton_2 = new QPushButton(page_5);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
@@ -145,33 +149,33 @@ public:
         toolBoxPage2->setGeometry(QRect(0, 0, 831, 733));
         lineEdit = new QLineEdit(toolBoxPage2);
         lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(320, 340, 311, 101));
+        lineEdit->setGeometry(QRect(290, 470, 311, 101));
         pushButton_3 = new QPushButton(toolBoxPage2);
         pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
-        pushButton_3->setGeometry(QRect(650, 340, 91, 31));
+        pushButton_3->setGeometry(QRect(640, 540, 91, 31));
         textEdit_6 = new QTextEdit(toolBoxPage2);
         textEdit_6->setObjectName(QStringLiteral("textEdit_6"));
-        textEdit_6->setGeometry(QRect(40, 80, 751, 211));
+        textEdit_6->setGeometry(QRect(40, 80, 751, 321));
         textEdit_6->setReadOnly(true);
         label_2 = new QLabel(toolBoxPage2);
         label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setGeometry(QRect(120, 340, 191, 31));
+        label_2->setGeometry(QRect(100, 460, 191, 31));
         toolBox->addItem(toolBoxPage2, QStringLiteral(""));
-        page = new QWidget();
-        page->setObjectName(QStringLiteral("page"));
-        page->setGeometry(QRect(0, 0, 831, 733));
-        radioButton_2 = new QRadioButton(page);
+        Home1 = new QWidget();
+        Home1->setObjectName(QStringLiteral("Home1"));
+        Home1->setGeometry(QRect(0, 0, 831, 733));
+        radioButton_2 = new QRadioButton(Home1);
         radioButton_2->setObjectName(QStringLiteral("radioButton_2"));
-        radioButton_2->setGeometry(QRect(230, 220, 121, 41));
-        radioButton = new QRadioButton(page);
+        radioButton_2->setGeometry(QRect(280, 220, 121, 41));
+        radioButton = new QRadioButton(Home1);
         radioButton->setObjectName(QStringLiteral("radioButton"));
-        radioButton->setGeometry(QRect(230, 190, 121, 41));
-        pushButton = new QPushButton(page);
+        radioButton->setGeometry(QRect(280, 190, 121, 41));
+        pushButton = new QPushButton(Home1);
         pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(260, 70, 80, 41));
-        layoutWidget = new QWidget(page);
+        pushButton->setGeometry(QRect(320, 70, 80, 41));
+        layoutWidget = new QWidget(Home1);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
-        layoutWidget->setGeometry(QRect(270, 360, 191, 131));
+        layoutWidget->setGeometry(QRect(320, 360, 191, 131));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -197,24 +201,24 @@ public:
 
         verticalLayout->addWidget(lineEdit_5);
 
-        label_3 = new QLabel(page);
+        label_3 = new QLabel(Home1);
         label_3->setObjectName(QStringLiteral("label_3"));
-        label_3->setGeometry(QRect(180, 160, 221, 16));
-        radioButton_3 = new QRadioButton(page);
+        label_3->setGeometry(QRect(190, 160, 221, 16));
+        radioButton_3 = new QRadioButton(Home1);
         radioButton_3->setObjectName(QStringLiteral("radioButton_3"));
-        radioButton_3->setGeometry(QRect(230, 250, 141, 41));
-        pushButton_4 = new QPushButton(page);
+        radioButton_3->setGeometry(QRect(280, 250, 141, 41));
+        pushButton_4 = new QPushButton(Home1);
         pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
-        pushButton_4->setGeometry(QRect(360, 70, 80, 41));
-        label_4 = new QLabel(page);
+        pushButton_4->setGeometry(QRect(420, 70, 80, 41));
+        label_4 = new QLabel(Home1);
         label_4->setObjectName(QStringLiteral("label_4"));
-        label_4->setGeometry(QRect(270, 40, 201, 16));
-        label_5 = new QLabel(page);
+        label_4->setGeometry(QRect(330, 40, 201, 16));
+        label_5 = new QLabel(Home1);
         label_5->setObjectName(QStringLiteral("label_5"));
-        label_5->setGeometry(QRect(180, 330, 161, 16));
-        layoutWidget_2 = new QWidget(page);
+        label_5->setGeometry(QRect(190, 330, 161, 16));
+        layoutWidget_2 = new QWidget(Home1);
         layoutWidget_2->setObjectName(QStringLiteral("layoutWidget_2"));
-        layoutWidget_2->setGeometry(QRect(188, 360, 81, 131));
+        layoutWidget_2->setGeometry(QRect(240, 360, 81, 131));
         verticalLayout_2 = new QVBoxLayout(layoutWidget_2);
         verticalLayout_2->setSpacing(6);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
@@ -240,7 +244,10 @@ public:
 
         verticalLayout_2->addWidget(label_9);
 
-        toolBox->addItem(page, QStringLiteral("Page"));
+        pushButton_5 = new QPushButton(Home1);
+        pushButton_5->setObjectName(QStringLiteral("pushButton_5"));
+        pushButton_5->setGeometry(QRect(510, 510, 75, 23));
+        toolBox->addItem(Home1, QStringLiteral("Page"));
         FrontPage->setCentralWidget(centralWidget);
         mainToolBar = new QToolBar(FrontPage);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -262,11 +269,11 @@ public:
         menuHelp->addSeparator();
         menuHelp->addAction(actionHelp_Using_Our_Program);
         menuHelp->addSeparator();
+        menuHelp->addAction(actionAdmin_Login);
 
         retranslateUi(FrontPage);
-        QObject::connect(lineEdit, SIGNAL(textEdited(QString)), textEdit_6, SLOT(setText(QString)));
         QObject::connect(pushButton_3, SIGNAL(clicked()), lineEdit, SLOT(clear()));
-        QObject::connect(lineEdit, SIGNAL(textEdited(QString)), textEdit_6, SLOT(insertPlainText(QString)));
+        QObject::connect(lineEdit, SIGNAL(textEdited(QString)), textEdit_6, SLOT(append(QString)));
 
         QMetaObject::connectSlotsByName(FrontPage);
     } // setupUi
@@ -278,11 +285,15 @@ public:
         actionContact_Us_3->setText(QApplication::translate("FrontPage", "Contact Us", 0));
         actionHelp->setText(QApplication::translate("FrontPage", "About Us", 0));
         actionHelp_Using_Our_Program->setText(QApplication::translate("FrontPage", "Help Using Our Program", 0));
+        actionAdmin_Login->setText(QApplication::translate("FrontPage", "Admin Login", 0));
+#ifndef QT_NO_TOOLTIP
+        toolBox->setToolTip(QApplication::translate("FrontPage", "<html><head/><body><p>Dirty Page</p></body></html>", 0));
+#endif // QT_NO_TOOLTIP
         textEdit_2->setHtml(QApplication::translate("FrontPage", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt; font-weight:600;\">SALE PITCH</span></p></body></html>", 0));
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Are YOU tired of being clean? Well if you are, then the Just Dirtier Team is here to help!</span></p></body></html>", 0));
         textEdit->setHtml(QApplication::translate("FrontPage", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -339,35 +350,67 @@ public:
                         "t-indent:0px; font-size:7.875pt;\"><br /></p></body></html>", 0));
         label->setText(QString());
         label_10->setText(QString());
-        toolBox->setItemText(toolBox->indexOf(widget), QString());
+        toolBox->setItemText(toolBox->indexOf(Home), QString());
         textEdit_4->setHtml(QApplication::translate("FrontPage", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">MAINTANCE PLAN</span></p></body></html>", 0));
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt; font-weight:600;\">MAINTANCE PLAN</span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">We will be able to offer 24/7 maintenance on any product of ours. We can communicate over the phone, Email, or even by one of our Dirty Technicians. </span></p></body></html>", 0));
         textEdit_5->setHtml(QApplication::translate("FrontPage", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">************************************************************</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*                                     </span><span style=\" font-size:7.875pt; font-weight:600; text-decoration: underline;\">Three Service Options                                                   </span><span style=\" font-size:7.875pt;\"> *________________________________________________"
-                        "__________</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">* The </span><span style=\" font-size:7.875pt; font-weight:600;\">Dirty</span><span style=\" font-size:7.875pt;\"> Package:                                                                         </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*-------------------                                                                               </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*                                                                                                                                                                                                        "
-                        "  </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*__________________________________________________________</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">* The </span><span style=\" font-size:7.875pt; font-weight:600;\">Just Dirtier</span><span style=\" font-size:7.875pt;\"> Package:                        </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*--------------------------                                </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*                                                          "
-                        "</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*__________________________________________________________</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">* The </span><span style=\" font-size:7.875pt; font-weight:600;\">Absolutly Filthy</span><span style=\" font-size:7.875pt;\"> Package:                            </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*------------------------------                            </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*                                                    "
-                        "      </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*                                                          </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*                                                          </span></p></body></html>", 0));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">*****************************************************************************</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">                                     </span><span style=\" font-size:7.875pt; font-weight:600; text-decoration: underline;\">Three Service Options                                                   </span><span style=\" font-size:7.875pt;\"> _________________________________"
+                        "____________________________________________</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\"> The </span><span style=\" font-size:7.875pt; font-weight:600;\">Dirty</span><span style=\" font-size:7.875pt;\"> Package</span><span style=\" font-size:8pt;\"> ( 1 Month: $50 / 1 Year: $75 ) </span><span style=\" font-size:7.875pt;\">:                                                                         </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">--------------------------------------------------------------                                                                              </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8p"
+                        "t;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Defends against viruses, spyware, malware and other online threats 		            using dust. </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Cloaks your identity and online transactions with soil. </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302"
+                        "\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Protects better and faster than the competition </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Includes our 100% guarantee: We\342\200\231ll help keep your device virus-free or 		            give you a dust </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">_____________________________________________________________________________</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-si"
+                        "ze:7.875pt;\"> The </span><span style=\" font-size:7.875pt; font-weight:600;\">Just Dirtier</span><span style=\" font-size:7.875pt;\"> Package </span><span style=\" font-size:8pt;\">( 1 Month: $75 / 1 Year: $100 ) :</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">-------------------------------------------------------------------------</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">     \342\200\242\302\240\302\240\302\240 Secures multiple PCs, Macs, smartphones and tablets with a single subscription. </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7p"
+                        "t;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Helps you manage protection for all your devices with an easy-to-use Web portal </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Safeguards your identity and online transactions </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Protects better and faster "
+                        "than the competition </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Symbol'; font-size:8pt;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt;\">Includes our 100% guarantee : We\342\200\231ll help keep your devises virus-free or give you some         </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">             more dirt </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">     \342\200\242\302\240\302\240\302\240 Defends against viruses, spyware, malware and other online threats </span><span style=\" font-size:7.875pt;\"> "
+                        "                                                     </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">                                                          </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">_____________________________________________________________________________</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\"> The </span><span style=\" font-size:7.875pt; font-weight:600;\">Absolutly Filthy</span><span style=\" font-size:7.875pt;\"> Package </span><span style=\" font-size:8pt;\">( 1 Month: $100 / 2 Months: $150 ) :</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-in"
+                        "dent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">-----------------------------------------------------------------------------------</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Offers you 25 GB of secure online PC storage, with the ability to add more as your needs</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-size:8pt; color:#191919;\">             change.</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; mar"
+                        "gin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Provides premium family safety features so your kids can explore their connected world</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-size:8pt; color:#191919;\">             safely.</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Ti"
+                        "mes New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Secures multiple PCs, Macs, smartphones and tablets with a single subscription.</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Helps you manage protection for all your devices with an easy-to-use Web portal.</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><sp"
+                        "an style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Defends against viruses, spyware, malware and other online threats.</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Safeguards your identity and online transactions.</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:"
+                        "0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Protects better and faster than the competition.</span><span style=\" font-size:8pt; color:#191919; vertical-align:super;\">1</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-family:'Symbol'; font-size:8pt; color:#191919;\">     \302\267</span><span style=\" font-family:'Times New Roman'; font-size:7pt; color:#191919;\">\302\240\302\240\302\240\302\240\302\240\302\240\302\240\302\240 </span><span style=\" font-size:8pt; color:#191919;\">Includes our 100% guarantee: We\342\200\231ll help ke"
+                        "ep your devices virus-free or give you a</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;\"><span style=\" font-size:8pt; color:#191919;\">             refund.</span><span style=\" font-size:7.875pt;\">                        </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">                        </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">                                                          </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">                                                                                     "
+                        "                              </span></p></body></html>", 0));
         pushButton_2->setText(QApplication::translate("FrontPage", "Dirty Guarantee", 0));
         toolBox->setItemText(toolBox->indexOf(page_5), QApplication::translate("FrontPage", "Page", 0));
         pushButton_3->setText(QApplication::translate("FrontPage", "Submit", 0));
@@ -375,7 +418,21 @@ public:
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:7.875pt;\">TESTIMONIALS</span></p></body></html>", 0));
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt; font-weight:600;\">Testimonials</span><span style=\" font-size:8pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\302\240\342\200\234We love \342\200\234Just Dirtier.\342\200\235\302\240 My family has not been hacked for centuries.\302\240 \342\200\234Just Dirtier\342\200\235 shooed away the hackers and we want to keep it that way. \342\200\234 8/10 </span></p>\n"
+"<p style=\" ma"
+                        "rgin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">- Janet from Jacksonville Florida </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\302\240 </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\342\200\234First thing I did when I bought \342\200\234Just Dirtier\342\200\235 was take a shower.\342\200\235 10/10 </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">- Lamar from Burbank California </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\302\240"
+                        " </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\342\200\234This product is absolutely disgusting.\302\240 It was so dirty I didn\342\200\231t even want to come close to my business\342\200\231 information\342\200\235 10/10 </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">- Stacey from Ferguson Missouri </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\302\240 </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\342\200\234I Love Dirt &lt;3\342\200\235 7/10 </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left"
+                        ":0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">- Phil from Collinsville Illinois </span></p></body></html>", 0));
         label_2->setText(QApplication::translate("FrontPage", "Would you like to add a Testimonal?", 0));
         toolBox->setItemText(toolBox->indexOf(toolBoxPage2), QString());
         radioButton_2->setText(QApplication::translate("FrontPage", "Just Dirtier Package", 0));
@@ -384,13 +441,14 @@ public:
         label_3->setText(QApplication::translate("FrontPage", "Choose the Sevice Package you would like:", 0));
         radioButton_3->setText(QApplication::translate("FrontPage", "Absolutly Filthy Package", 0));
         pushButton_4->setText(QApplication::translate("FrontPage", "No", 0));
-        label_4->setText(QApplication::translate("FrontPage", "Would you like to Use our services", 0));
+        label_4->setText(QApplication::translate("FrontPage", "Would you like to Use our services?", 0));
         label_5->setText(QApplication::translate("FrontPage", "Please Enter Your Information:", 0));
         label_6->setText(QApplication::translate("FrontPage", "Name:", 0));
         label_7->setText(QApplication::translate("FrontPage", "Address:", 0));
         label_8->setText(QApplication::translate("FrontPage", "City/State/Zip:", 0));
         label_9->setText(QApplication::translate("FrontPage", "Interest", 0));
-        toolBox->setItemText(toolBox->indexOf(page), QApplication::translate("FrontPage", "Page", 0));
+        pushButton_5->setText(QApplication::translate("FrontPage", "Submit", 0));
+        toolBox->setItemText(toolBox->indexOf(Home1), QApplication::translate("FrontPage", "Page", 0));
         menuHelp->setTitle(QApplication::translate("FrontPage", "Help", 0));
     } // retranslateUi
 

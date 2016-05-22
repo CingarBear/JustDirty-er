@@ -26,9 +26,9 @@
 **************************************************************************/
 
 int GetAndCheckInput( string prompt,        // IN - prompt for user
-                       string errorMessage,	 // IN - Error message
-                       int    min,           // IN - minimum boundary
-                       int    max)           // IN - maximum boundary
+                      string errorMessage,	// IN - Error message
+                      int    min,           // IN - minimum boundary
+                      int    max)           // IN - maximum boundary
 {
     int  input;
     bool invalid;
@@ -59,7 +59,7 @@ int GetAndCheckInput( string prompt,        // IN - prompt for user
         }
         else
         {
-            invalid = input < min || input > max;
+            invalid = input != ADMIN_PASSWORD || input > CUSTOMER_PASSWORD;
 
             if(invalid)
             {
